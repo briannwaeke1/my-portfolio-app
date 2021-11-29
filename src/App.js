@@ -1,12 +1,11 @@
 import React from "react";
-import Navigation from "./navigation";
-import About from "./about";
-import Bio from "./bio";
-import Skills from "./skills";
-import Projects from "./projects";
-import WorkHistory from "./work-history";
-import Education from "./education";
-import ContactForm from "./contact-form";
+import Navigation from "./Navigation";
+import About from "./AboutMe";
+import Skills from "./Skills";
+import Projects from "./Projects";
+import WorkHistory from "./WorkHistory";
+import Education from "./Education";
+import ContactForm from "./Contact";
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
       <h1>This is the app component</h1>
       <Navigation />
       <About />
-      <Bio />
       <Skills />
       <Projects />
       <WorkHistory />

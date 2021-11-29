@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 
-function ContactForm() {
+function Contact() {
   return (
     <div className='contact-form'>
       <h3>This is the contact form component</h3>
@@ -9,4 +9,4 @@ function ContactForm() {
   );
 }
 
-export default ContactForm;
+export default Contact;
