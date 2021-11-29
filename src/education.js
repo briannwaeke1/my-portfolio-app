@@ -1,8 +1,9 @@
 import React from "react";
+import './App.css';
 
 function Education() {
   return (
-    <div>
+    <div className='education'>
       <h3>This is the education component</h3>
     </div>
   );

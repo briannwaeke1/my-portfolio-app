@@ -1,8 +1,9 @@
 import React from "react";
+import './App.css';
 
 function Bio() {
   return (
-    <div>
+    <div className='bio'>
       <h3>This is the bio component</h3>
     </div>
   );
