@@ -12,6 +12,14 @@ function App() {
   return (
     <div>
       <h1>This is the app component</h1>
+      <Navigation />
+      <About />
+      <Bio />
+      <Skills />
+      <Projects />
+      <WorkHistory />
+      <Education />
+      <ContactForm />
     </div>
   );
 }
